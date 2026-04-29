@@ -1,4 +1,5 @@
 import 'dart:ffi';
+import 'dart:math';
 
 void main(){
 
@@ -73,4 +74,55 @@ double balancee = 500;
 bool canpay = balancee >= 300;
 
 print(canpay);
+
+// logical operators - && (AND), || (OR), ! (NOT)
+
+// && When both conditions are true the output will come true 
+
+bool isloggedin = true;
+bool hasSubsription = false;
+
+bool CanWatchMovie = isloggedin && hasSubsription;
+print(CanWatchMovie);
+
+bool isAdmin = true;
+bool aModerator = true;
+
+bool candelete = isAdmin && aModerator;
+print(candelete);
+
+// || even if a one condition is true the output will be true 
+
+bool isAdminn = true;
+bool aModeratorr = false;
+
+bool canDeletee = isAdminn || aModeratorr;
+print(canDeletee);
+
+// assignment operator - assign a value - =
+
+int score = 37;
+score += 10;
+print(score);
+
+// ternery operator - decision in one line 
+
+bool login = true;
+
+String massage = login ? "welcome" : "please login";
+print(login);
+
+// null-aware operator
+// when the data is empty 
+
+String? namee;
+
+String displayname = namee ?? "guest";
+print(displayname);
+
+
+
+
+
+
 }
