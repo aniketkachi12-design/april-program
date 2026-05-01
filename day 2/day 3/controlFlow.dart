@@ -40,7 +40,7 @@ if (rating ==5) {
 
 // multiple choices - switches 
 
-int menuOption = 2
+int menuOption = 2;
 
  switch (menuOption){
  case 1:

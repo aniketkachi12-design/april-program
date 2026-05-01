@@ -1,5 +1,3 @@
-import 'dart:ffi';
-import 'dart:math';
 
 void main(){
 
@@ -121,8 +119,17 @@ String displayname = namee ?? "guest";
 print(displayname);
 
 
+// logic to find odd/even num 
 
+int number = 99;
 
+while ( number > 1){
+  number  = number - 2;
+}
 
-
+if ( number == 0){
+  print ("even");
+}
+else {
+  print ("odd");
 }
