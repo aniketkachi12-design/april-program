@@ -23,10 +23,7 @@ void main() {
   } while (num < 5);
 
   // break example
-  void main(){
-    double y = 1;
-  }
-  for (y = 1; y <= 5; y++) {
+  for ( int y = 1; y <= 5; y++) {
     if (y == 3) {
       print("item found");
       break;
@@ -42,4 +39,17 @@ void main() {
     }
     print("showing item $x");
   }
+
+  int number = 8;
+
+  while (number > 1) {
+    number = number - 2;
+  }
+
+  if (number == 0) {
+    print("Even");
+  } else {
+    print("Odd");
+  }
+
 }
